@@ -1,10 +1,8 @@
-Canvas Boilerplate is the go-to solution for quickly creating modern canvas pieces using ES6 and webpack.
-
 ## Getting Started
 
 1.  Clone the repo:
 
-        git clone https://github.com/christopher4lis/canvas-boilerplate.git
+        git clone https://github.com/meedsharif/canvas-gravitational-field.git
 
 2.  Install dependencies:
 
@@ -18,4 +16,9 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
         npm start
 
-Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
+Your canvas piece should open up automatically at http://localhost:3000
+
+4. Build project:
+        npm run build
+
+Canvas Boilerplate repo - <https://github.com/christopher4lis/canvas-boilerplate>
