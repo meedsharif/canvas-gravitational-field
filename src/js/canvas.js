@@ -41,19 +41,19 @@ class Text {
   }
 
   draw() {
+    c.save();
     c.beginPath();
     c.font = this.font;
     c.lineWidth = 1;
-    c.save();
     c.globalAlpha = this.opacity;
     c.fillStyle = `black`;
     c.fillText(this.text, this.x, this.y);
     c.fill();
-    c.restore();
     c.strokeStyle = this.color;
     c.strokeText(this.text, this.x, this.y);
     c.textAlign = this.align;
-  c.closePath();
+    c.closePath();
+    c.restore();
   }
 
   update() {
