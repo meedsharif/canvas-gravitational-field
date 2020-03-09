@@ -2,8 +2,6 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/meedsharif/canvas-gravitational-field)](https://repl.it/github/meedsharif/canvas-gravitational-field)
 
-#or
-
 1.  Clone the repo:
 
         git clone https://github.com/meedsharif/canvas-gravitational-field.git
